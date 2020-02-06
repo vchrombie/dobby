@@ -16,21 +16,30 @@ and dobby converts them to emojis using his snap, in the editor itself
 ### Setup :nut_and_bolt:
 
 - You need to have the latest version of sublime-text-3 installed on your machine. Please get it from [here]().
+
 - Go to the Packages folder of the sublime-text-3 application.
 	```
 	$ cd ~/.config/sublime-text-3/Packages/
 	```
+
 - Clone this repository here.
 	```
 	git clone https://github.com/vchrombie/dobby
 	``` 
+
 - Add this entry to your list of keybindings: (Sublime Text > Preferences > Key Bindings)
 	```
 	{ "keys": [ "ctrl+m"], "command": "dobby" }
 	```
+
 - That's it, you are now ready to use dobby :tada:. Type the code and use the shortcut (ctrl+m), the dobby's snap. :wink:
 
-**Want to dicuss something** :speech_balloon:
+- You can now use teh autocomplete feature too. Make sure you add the below line to (Sublime Text > Preferences > Settings)
+	```
+	"auto_complete": true
+	```
+
+### Want to dicuss something :speech_balloon:
 
 Feel free to raise an issue, if you are having any doubt or you have any sugesstions for improving the plugin.  
 
