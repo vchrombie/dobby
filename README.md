@@ -27,6 +27,6 @@ and dobby converts them to emojis using his snap, in the editor itself
 	``` 
 - Add this entry to your list of keybindings: (Sublime Text > Preferences > Key Bindings)
 	```
-	{ "keys": [ "ctrl+m"], "command": "meow"}
+	{ "keys": [ "ctrl+m"], "command": "dobby" }
 	```
 - That's it, you are now ready to use dobby :tada:. 
